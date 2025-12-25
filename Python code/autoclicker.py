@@ -12,7 +12,7 @@ while a==0:
     if keyboard.is_pressed('q'):
         a=5
 while a==1:
-    time.sleep(0.1)  # Adjust the delay as needed
+    time.sleep(0.05)  # Adjust the delay as needed
     pyautogui.click()
     if keyboard.is_pressed('q'):
         a=6
